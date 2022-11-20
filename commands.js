@@ -71,17 +71,17 @@ projects = [
 
 help = [
   "<br>",
-  '<span class="command">whois</span>          Who is Forrest?',
-  '<span class="command">whoami</span>         Who are you?',
-  '<span class="command">video</span>          View YouTube videos',
-  '<span class="command">social</span>         Display social networks',
-  '<span class="command">secret</span>         Find the password',
-  '<span class="command">projects</span>       View coding projects',
-  '<span class="command">history</span>        View command history',
-  '<span class="command">help</span>           You obviously already know what this does',
-  '<span class="command">email</span>          Do not email me',
-  '<span class="command">clear</span>          Clear terminal',
-  '<span class="command">banner</span>         Display the header',
+  '<span class="command">whois</span>          Quem é Lucas?',
+  '<span class="command">whoami</span>         Quem é você?',
+  '<span class="command">video</span>          Ver os videos do Youtube',
+  '<span class="command">social</span>         Ver as redes sociais',
+  '<span class="command">segredo</span>        Descubra a senha :D',
+  '<span class="command">projetos</span>       Ver projetos',
+  '<span class="command">historico</span>      Ver historico de comandos',
+  '<span class="command">ajuda</span>          Obviamente voce ja sabe oque esse faz..',
+  '<span class="command">email</span>          Me manda um mail',
+  '<span class="command">clear</span>          Limpar o terminal',
+  '<span class="command">banner</span>         Mostra o cabeçalho',
   "<br>",
 ];
 
