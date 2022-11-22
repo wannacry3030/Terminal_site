@@ -1,10 +1,10 @@
-var youtube = "https://www.youtube.com/fknight/";
-var twitter = "https://www.twitter.com/forrestpknight/";
-var password = "fkcodes";
-var linkedin = "https://www.linkedin.com/in/forrestpknight/";
-var instagram = "https://www.instagram.com/forrestpknight/";
-var github = "https://github.com/forrestknight/";
-var email = "mailto:forrest@fkcodes.com";
+var youtube = "https://www.youtube.com/";
+var twitter = "https://www.twitter.com/";
+var password = "password";
+var linkedin = "https://www.linkedin.com/in/lucas-oliveira-5a481a186//";
+var instagram = "https://www.instagram.com/";
+var github = "https://github.com/wannacry3030/";
+var email = "mailto:f.nrirdesign@gmail.com";
 
 whois = [
   "<br>",
