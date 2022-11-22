@@ -117,7 +117,7 @@ function commander(cmd) {
       break;
     case "password":
       addLine(
-        "<span class=\"inherit\"> Lol! You're joking, right? You're gonna have to try harder than that!😂</span>",
+        '<span class="inherit"> Ta brincando ne? Vai ter que se esforçar mais..😂</span>',
         "error",
         100
       );
@@ -129,7 +129,7 @@ function commander(cmd) {
       break;
     case "email":
       addLine(
-        'Opening mailto:<a href="mailto:forrest@fkcodes.com">forrest@fkcodes.com</a>...',
+        'Opening mailto:<a href="mailto:f.nrirdesign@gmail.com">f.nrirdesign@gmail.com</a>...',
         "color2",
         80
       );
@@ -146,28 +146,28 @@ function commander(cmd) {
       break;
     // socials
     case "youtube":
-      addLine("Opening YouTube...", "color2", 80);
+      addLine("direcionando para YouTube...", "color2", 80);
       newTab(youtube);
       break;
     case "twitter":
-      addLine("Opening Twitter...", "color2", 0);
+      addLine("direcionando para Twitter...", "color2", 0);
       newTab(twitter);
       break;
     case "linkedin":
-      addLine("Opening LinkedIn...", "color2", 0);
+      addLine("direcionando para LinkedIn...", "color2", 0);
       newTab(linkedin);
       break;
     case "instagram":
-      addLine("Opening Instagram...", "color2", 0);
+      addLine("direcionando para Instagram...", "color2", 0);
       newTab(instagram);
       break;
     case "github":
-      addLine("Opening GitHub...", "color2", 0);
+      addLine("direcionando para GitHub...", "color2", 0);
       newTab(github);
       break;
     default:
       addLine(
-        '<span class="inherit">Command not found. For a list of commands, type <span class="command">\'help\'</span>.</span>',
+        '<span class="inherit">Comando não encontrado. Para listar os comandos, digite <span class="command">\'help\'</span>.</span>',
         "error",
         100
       );

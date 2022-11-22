@@ -4,18 +4,25 @@ body {
   min-height: 99%;
   width: 100%;
   min-width: 550px;
-  color: #519975;
-  background: #211D1B;
+  /* color: #519975;
+   */
+  color: #c70207;
+  /* background: #211d1b; */
+  background: #000100;
   font-family: cursor, monospace;
   overflow-x: hidden;
 }
 ::selection {
-  color: #211830;
-  background-color: #519975;
+  /* color: #211830; */
+  color: #000100;
+  /* background-color: #519975; */
+  background-color: #c70207;
 }
 ::-moz-selection {
-  color: #211830;
-  background-color: #519975;
+  /* color: #211830; */
+  color: #000100;
+  /* background-color: #519975; */
+  background-color: #c70207;
 }
 textarea {
   left: -1000px;
@@ -28,8 +35,10 @@ b {
 /* Cursor Start */
 .cursor {
   font-size: 12px;
-  color: #73ABAD;
-  background-color: #73ABAD;
+  /* color: #73abad; */
+  /* background-color: #73abad; */
+  color: #b20200;
+  background-color: #b20200;
   position: relative;
   opacity: 1;
   height: 1.5em;
@@ -50,7 +59,7 @@ b {
 #command {
   cursor: text;
   height: 50px;
-  color: #73ABAD;
+  color: #f8f8f8;
 }
 #liner {
   line-height: 1.3em;
@@ -60,8 +69,8 @@ b {
   opacity: 0;
 }
 #liner::before {
-  color: #519975;
-  content: "visitor@fkcodes.com:~$";
+  color: #8f8f8f;
+  content: "Visitante@f.nrirdesign.com:~$";
 }
 #liner.password::before {
   content: "Password:";
@@ -100,31 +109,31 @@ p {
   }
 }
 .index {
-  color: #DCDCCC;
+  color: #dcdccc;
 }
 .color2 {
-  color: #B89076;
+  color: #b89076;
 }
 .command {
-  color: #73ABAD;
-  text-shadow: 0 0 5px #73ABAD; 
+  color: #73abad;
+  text-shadow: 0 0 5px #73abad;
 }
 .error {
-  color: #B89076;
+  color: #b89076;
 }
 .white {
   color: #fff;
 }
 .inherit,
 a {
-  color: #9C8394;
+  color: #9c8394;
 }
 a {
   text-decoration: inherit;
 }
 a:hover {
-  background: #73ABAD;
-  color: #211830;
+  background: #c70207;
+  color: #040305;
 }
 a:focus {
   outline: 0;
