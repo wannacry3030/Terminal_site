@@ -1,3 +1,5 @@
+/* to do list: mudar a arte ascii, refazer a paleta de cores, traduzir os links para portugues */
+
 body {
   margin: 0;
   padding: 15px 20px;
@@ -6,7 +8,7 @@ body {
   min-width: 550px;
   /* color: #519975;
    */
-  color: #c70207;
+  color: #ce0000;
   /* background: #211d1b; */
   background: #000100;
   font-family: cursor, monospace;
@@ -16,13 +18,13 @@ body {
   /* color: #211830; */
   color: #000100;
   /* background-color: #519975; */
-  background-color: #c70207;
+  background-color: #ce0000;
 }
 ::-moz-selection {
   /* color: #211830; */
   color: #000100;
   /* background-color: #519975; */
-  background-color: #c70207;
+  background-color: #ce0000;
 }
 textarea {
   left: -1000px;
@@ -37,8 +39,8 @@ b {
   font-size: 12px;
   /* color: #73abad; */
   /* background-color: #73abad; */
-  color: #b20200;
-  background-color: #b20200;
+  color: #ce0000;
+  background-color: #ce0000;
   position: relative;
   opacity: 1;
   height: 1.5em;
@@ -69,7 +71,7 @@ b {
   opacity: 0;
 }
 #liner::before {
-  color: #8f8f8f;
+  color: #d6d6d6;
   content: "Visitante@f.nrirdesign.com:~$";
 }
 #liner.password::before {
@@ -109,30 +111,30 @@ p {
   }
 }
 .index {
-  color: #dcdccc;
+  color: #fff;
 }
 .color2 {
-  color: #b89076;
+  color: #fff;
 }
 .command {
-  color: #73abad;
-  text-shadow: 0 0 5px #73abad;
+  color: #ce0000;
+  text-shadow: 0 0 8px #ff0a0a;
 }
 .error {
-  color: #b89076;
+  color: #626262;
 }
 .white {
   color: #fff;
 }
 .inherit,
 a {
-  color: #9c8394;
+  color: #626262;
 }
 a {
   text-decoration: inherit;
 }
 a:hover {
-  background: #c70207;
+  background: #ce0000;
   color: #040305;
 }
 a:focus {

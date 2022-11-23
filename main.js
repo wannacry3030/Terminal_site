@@ -96,11 +96,11 @@ function commander(cmd) {
       loopLines(whoami, "color2 margin", 80);
       break;
     case "video":
-      addLine("Opening YouTube...", "color2", 80);
+      addLine("Direcionando para YouTube...", "color2", 80);
       newTab(youtube);
       break;
     case "sudo":
-      addLine("Oh no, you're not admin...", "color2", 80);
+      addLine("Oh não, voce não é o admin...", "color2", 80);
       setTimeout(function () {
         window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
       }, 1000);
