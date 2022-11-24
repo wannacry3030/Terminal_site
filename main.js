@@ -112,7 +112,7 @@ function commander(cmd) {
       liner.classList.add("password");
       pw = true;
       break;
-    case "projects":
+    case "projetos":
       loopLines(projects, "color2 margin", 80);
       break;
     case "password":
@@ -167,7 +167,7 @@ function commander(cmd) {
       break;
     default:
       addLine(
-        '<span class="inherit">Comando não encontrado. Para listar os comandos, digite <span class="command">\'help\'</span>.</span>',
+        '<span class="inherit">Comando não encontrado. Para listar os comandos, digite <span class="command">\'ajuda\'</span>.</span>',
         "error",
         100
       );

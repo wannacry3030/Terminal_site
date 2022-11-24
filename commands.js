@@ -53,13 +53,13 @@ social = [
 
 secret = [
   "<br>",
-  '<span class="command">sudo</span>           Only use if you\'re admin',
+  '<span class="command">sudo</span>           só use se você for o\'admin',
   "<br>",
 ];
 
 projects = [
   "<br>",
-  "Still curating... most projects are offline, on GitHub, or confidential.",
+  "Meus projetos estão no github, para conferir é só digitar github",
   "<br>",
 ];
 
