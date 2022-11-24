@@ -1,4 +1,4 @@
-/* to do list: mudar a arte ascii, refazer a paleta de cores, traduzir os links para portugues */
+/* to do list: , traduzir os links para portugues, adicionar responsividade para mobile */
 
 body {
   margin: 0;
@@ -6,25 +6,18 @@ body {
   min-height: 99%;
   width: 100%;
   min-width: 550px;
-  /* color: #519975;
-   */
-  color: #ce0000;
-  /* background: #211d1b; */
-  background: #000100;
+  color: #1bee0c;
+  background: #000;
   font-family: cursor, monospace;
   overflow-x: hidden;
 }
 ::selection {
-  /* color: #211830; */
-  color: #000100;
-  /* background-color: #519975; */
-  background-color: #ce0000;
+  color: #000;
+  background-color: #1bee0c;
 }
 ::-moz-selection {
-  /* color: #211830; */
-  color: #000100;
-  /* background-color: #519975; */
-  background-color: #ce0000;
+  color: #000;
+  background-color: #1bee0c;
 }
 textarea {
   left: -1000px;
@@ -37,10 +30,8 @@ b {
 /* Cursor Start */
 .cursor {
   font-size: 12px;
-  /* color: #73abad; */
-  /* background-color: #73abad; */
-  color: #ce0000;
-  background-color: #ce0000;
+  color: #1bee0c;
+  background-color: #1bee0c;
   position: relative;
   opacity: 1;
   height: 1.5em;
@@ -61,7 +52,7 @@ b {
 #command {
   cursor: text;
   height: 50px;
-  color: #f8f8f8;
+  color: #1bee0c;
 }
 #liner {
   line-height: 1.3em;
@@ -71,7 +62,7 @@ b {
   opacity: 0;
 }
 #liner::before {
-  color: #d6d6d6;
+  color: #1bee0c;
   content: "Visitante@f.nrirdesign.com:~$";
 }
 #liner.password::before {
@@ -111,31 +102,32 @@ p {
   }
 }
 .index {
-  color: #fff;
+  color: #63f0c1;
 }
 .color2 {
-  color: #fff;
+  color: #8cff84;
+  text-shadow: 0 0 20px #63f0c1;
 }
 .command {
-  color: #ce0000;
-  text-shadow: 0 0 8px #ff0a0a;
+  color: #1bee0c;
+  text-shadow: 0 0 20px #11ff00;
 }
 .error {
-  color: #626262;
+  color: #63f0c1;
 }
 .white {
-  color: #fff;
+  color: #63f0c1;
 }
 .inherit,
 a {
-  color: #626262;
+  color: #1bee0c;
 }
 a {
   text-decoration: inherit;
 }
 a:hover {
-  background: #ce0000;
-  color: #040305;
+  background: #1bee0c;
+  color: #fff;
 }
 a:focus {
   outline: 0;

@@ -86,7 +86,7 @@ function enterKey(e) {
 
 function commander(cmd) {
   switch (cmd.toLowerCase()) {
-    case "help":
+    case "ajuda":
       loopLines(help, "color2 margin", 80);
       break;
     case "whois":
@@ -95,7 +95,7 @@ function commander(cmd) {
     case "whoami":
       loopLines(whoami, "color2 margin", 80);
       break;
-    case "video":
+    case "Curriculo":
       addLine("Direcionando para YouTube...", "color2", 80);
       newTab(youtube);
       break;
@@ -122,7 +122,7 @@ function commander(cmd) {
         100
       );
       break;
-    case "history":
+    case "historico":
       addLine("<br>", "", 0);
       loopLines(commands, "color2", 80);
       addLine("<br>", "command", 80 * commands.length + 50);
