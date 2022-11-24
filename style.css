@@ -127,7 +127,7 @@ a {
 }
 a:hover {
   background: #1bee0c;
-  color: #fff;
+  color: #000;
 }
 a:focus {
   outline: 0;
