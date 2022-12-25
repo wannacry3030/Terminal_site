@@ -1,4 +1,9 @@
-/* to do list: , traduzir os links para portugues, adicionar responsividade para mobile */
+/* to do list: adicionar responsividade para mobile */
+@media (max-width: 375px) {
+  body {
+    font-size: 12px;
+  }
+}
 
 body {
   margin: 0;
