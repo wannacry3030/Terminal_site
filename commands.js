@@ -21,7 +21,7 @@ whois = [
 
 whoami = [
   "<br>",
-  "The paradox of “Who am I?” is: we never know, but, we constantly find out.",
+  "O paradoxo de 'Quem sou eu?' é: nunca sabemos, mas, constantemente descobrimos.",
   "<br>",
 ];
 
