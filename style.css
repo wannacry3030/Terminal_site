@@ -3,7 +3,7 @@
   body {
     min-width: 350px;
     max-width: 355px;
-    font-size: 10px;
+    font-size: 4px;
     width: 50%;
     padding: 1px 1px;
     margin: 0;
@@ -23,6 +23,7 @@ body {
   background: #000;
   font-family: cursor, monospace;
   overflow-x: hidden;
+  font-size: 14px;
 }
 ::selection {
   color: #000;
@@ -42,7 +43,7 @@ b {
 }
 /* Cursor Start */
 .cursor {
-  font-size: 12px;
+  font-size: 8px;
   color: #1bee0c;
   background-color: #1bee0c;
   position: relative;

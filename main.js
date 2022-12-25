@@ -95,7 +95,7 @@ function commander(cmd) {
     case "whoami":
       loopLines(whoami, "color2 margin", 80);
       break;
-    case "Curriculo":
+    case "video":
       addLine("Direcionando para YouTube...", "color2", 80);
       newTab(youtube);
       break;
