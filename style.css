@@ -1,16 +1,24 @@
 /* to do list: adicionar responsividade para mobile */
-@media (max-width: 375px) {
+@media (max-width: 440px) {
   body {
-    font-size: 12px;
+    min-width: 350px;
+    max-width: 355px;
+    font-size: 10px;
+    width: 50%;
+    padding: 1px 1px;
+    margin: 0;
+  }
+  html {
+    width: 355px;
   }
 }
 
 body {
   margin: 0;
-  padding: 15px 20px;
+  padding: 15px 5px;
   min-height: 99%;
   width: 100%;
-  min-width: 550px;
+  min-width: 350px;
   color: #1bee0c;
   background: #000;
   font-family: cursor, monospace;
